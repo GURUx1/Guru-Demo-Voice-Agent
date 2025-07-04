@@ -15,3 +15,5 @@ def voice():
 @app.route("/")
 def home():
     return "✅ Guru AI Demo VoiceBot is running!"
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=10000)
